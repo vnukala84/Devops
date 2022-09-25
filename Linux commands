@@ -1,0 +1,5 @@
+Run any one of the following command on Linux to see open ports
+==============================================================
+
+sudo lsof -i -P -n | grep LISTEN
+
