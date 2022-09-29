@@ -3,3 +3,22 @@ Run any one of the following command on Linux to see open ports
 
 sudo lsof -i -P -n | grep LISTEN
 
+venkat   tty2         2022-09-29 21:52 (tty2)
+venkat@venkat-virtual-machine:~$ who | awk '{print $1}'
+venkat
+venkat@venkat-virtual-machine:~$ who | awk '{print $2}'
+tty2
+venkat@venkat-virtual-machine:~$ who | awk '{print $3}'
+2022-09-29
+venkat@venkat-virtual-machine:~$ who | awk '{print $3}' | grep -i 2022
+2022-09-29
+venkat@venkat-virtual-machine:~$ who | awk '{print $3}' | grep -i 09
+2022-09-29
+venkat@venkat-virtual-machine:~$ 
+==================================================
+
+venkat@venkat-virtual-machine:~$ echo Bobby is cool | sed 's/Bobby/Teddy/'
+Teddy is cool
+venkat@venkat-virtual-machine:~$ 
+
+===================================
