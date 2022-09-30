@@ -1,0 +1,13 @@
+To start Jenkins, use the following command:
+        sudo systemctl start jenkins 
+        =======================================
+        
+Similarly, to stop Jenkins, use the following command:
+        sudo systemctl stop jenkins 
+        ==========================
+        
+To restart Jenkins, use the following command:
+        sudo systemctl restart jenkins 
+        ============================================
+To check the status of the Jenkins service, use the following systemctl command:
+        sudo systemctl status jenkins 
