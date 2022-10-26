@@ -1,1 +1,25 @@
 
+Sort and Sorted in python
+---------------------------
+
+Python 3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> numbers = [4,6,2,7,1]
+>>> numbers.sort()
+>>> print(numbers)
+[1, 2, 4, 6, 7]
+>>> names = [ "venkat" , "roopa", "siva" , "hanshu" ]
+>>> print(names)
+['venkat', 'roopa', 'siva', 'hanshu']
+>>> print(sorted(names))
+['hanshu', 'roopa', 'siva', 'venkat']
+>>> print(names)
+['venkat', 'roopa', 'siva', 'hanshu']
+>>>
+======================================================
+Use len to sort 
+
+>>> print(sorted(names, key=len))
+['siva', 'roopa', 'venkat', 'hanshu']
+>>>
+======================================
