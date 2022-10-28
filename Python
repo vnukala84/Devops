@@ -33,6 +33,16 @@ Use len to sort
 >>> fruit.flavor="sweet"
 >>> print(fruit.color)
 red
+==================================
+
+>>> class Sample:
+...      def speak(self):
+...          print("hello python world")
+...
+>>> test = Sample()
+>>> test.speak()
+hello python world
+>>>
 >>> print(fruit.flavor)
 sweet
 >>>
