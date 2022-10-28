@@ -23,3 +23,17 @@ Use len to sort
 ['siva', 'roopa', 'venkat', 'hanshu']
 >>>
 ======================================
+
+ class Apple:
+...      color = ""
+...      flavor = ""
+...
+>>> fruit = Apple()
+>>> fruit.color="red"
+>>> fruit.flavor="sweet"
+>>> print(fruit.color)
+red
+>>> print(fruit.flavor)
+sweet
+>>>
+============================================
