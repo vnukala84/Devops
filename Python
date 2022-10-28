@@ -47,3 +47,11 @@ hello python world
 sweet
 >>>
 ============================================
+class SampleCon:
+...     def __init__(self,color,flavor):
+...         self.color = color
+...         self.flavor = flavor
+...
+>>> test1  = SampleCon("red", "sweet")
+>>> print(test1.color)
+red
