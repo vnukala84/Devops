@@ -22,3 +22,6 @@ Bash start up files
 ~/.bash_profile
 ~/.bashrc
 ======================================================
+echo $SHELL
+
+echo $BASH_VERSION
