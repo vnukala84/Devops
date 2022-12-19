@@ -25,3 +25,7 @@ Bash start up files
 echo $SHELL
 
 echo $BASH_VERSION
+
+========================
+#!/bin/bash
+
