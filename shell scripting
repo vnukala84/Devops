@@ -38,4 +38,23 @@ USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
 root           1  0.7  0.1 166836 12204 ?        Ss   04:29   0:06 /sbin/init auto noprompt splash
 root           2  0.0  0.0      0     0 ?        S    04:29   0:00 [kthreadd]
 venkat@devops:~/Desktop$ 
+=========================
+To print specific line in file
 
+venkat@devops:~$ sed -n 5p testfile
+siva
+venkat@devops:~$ sed -n 2P testfile
+venkat
+venkat@devops:~$ 
+
+=================
+
+replace using sed command
+
+sed -i 's/venkat/nanaji/' testfile  ( Venkat replaced with nanaji)
+
+==================================================
+
+replace in all places
+
+sed -i 's/ve1/ve/g' replacetest 
