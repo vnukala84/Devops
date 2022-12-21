@@ -29,3 +29,6 @@ echo $BASH_VERSION
 ========================
 #!/bin/bash
 
+============================
+Sort
+cut -d : -f 3 /etc/passwd | sort -n
