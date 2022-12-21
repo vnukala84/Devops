@@ -32,3 +32,10 @@ echo $BASH_VERSION
 ============================
 Sort
 cut -d : -f 3 /etc/passwd | sort -n
+
+venkat@devops:~/Desktop$ ps aux | head -3
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.7  0.1 166836 12204 ?        Ss   04:29   0:06 /sbin/init auto noprompt splash
+root           2  0.0  0.0      0     0 ?        S    04:29   0:00 [kthreadd]
+venkat@devops:~/Desktop$ 
+
