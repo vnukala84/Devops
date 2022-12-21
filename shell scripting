@@ -58,3 +58,18 @@ sed -i 's/venkat/nanaji/' testfile  ( Venkat replaced with nanaji)
 replace in all places
 
 sed -i 's/ve1/ve/g' replacetest 
+===========================================
+
+venkat@devops:~$ cat testfile
+hello
+nanaji
+nukala
+
+venkat@devops:~$ echo "remove 2nd line"
+remove 2nd line
+
+venkat@devops:~$ sed -i -e '2d' testfile
+venkat@devops:~$ cat testfile
+hello
+nukala
+
