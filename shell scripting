@@ -73,3 +73,18 @@ venkat@devops:~$ cat testfile
 hello
 nukala
 
+==========================
+awk -F : '{ print $4 }' /etc/passwd
+
+venkat@devops:~$ awk -F : '/venkat/ { print $4 }' /etc/passwd
+1000
+1003
+venkat@devops:~$ awk -F : '/venkat/ { print $3 }' /etc/passwd
+1000
+1002
+venkat@devops:~$ awk -F : '/venkat/ { print $1 }' /etc/passwd
+venkat
+nanaji
+venkat@devops:~$ awk -F : '/venkat/ { print $2 }' /etc/passwd
+x
+x
