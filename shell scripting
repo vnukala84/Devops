@@ -88,3 +88,5 @@ nanaji
 venkat@devops:~$ awk -F : '/venkat/ { print $2 }' /etc/passwd
 x
 x
+================================
+awk -F : '$3 < 999 { print $1 }' /etc/passwd
