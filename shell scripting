@@ -90,3 +90,22 @@ x
 x
 ================================
 awk -F : '$3 < 999 { print $1 }' /etc/passwd
+
+=======================================================
+venkat@devops:~/shell-scripting$ cat first-sr 
+#!/bin/bash
+
+echo "hello world"
+
+
+venkat@devops:~/shell-scripting$ cat shebang1
+#!/usr/bin/bash
+
+echo "hello "
+venkat@devops:~/shell-scripting$ cat shebang2
+#!/usr/env bash
+
+echo "hello india"
+venkat@devops:~/shell-scripting$ 
+
+
