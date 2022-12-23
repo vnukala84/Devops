@@ -107,5 +107,32 @@ venkat@devops:~/shell-scripting$ cat shebang2
 
 echo "hello india"
 venkat@devops:~/shell-scripting$ 
+================================
+
+MSG="I need 10"
+echo ${MSG//[a-zA-Z]/X}
+#returns X XXXX 10
+======================
+Extracting substrings
+MSG="The Rolling Stones"
+echo ${MSG:4}
+#returns Rolling Stones
+
+
+Use the :: symbol to get the substring of all the characters after the starting at position 4
+Case conversion
+MSG="aBcDeFg"
+echo ${MSG^}
+#returns ABcDeFg
+
+
+Use the ^^ symbol to convert the first character in a string to uppercase.
+Use the :: symbol to get the substring that has 7 characters starting at position 4
+MSG="The Rolling Stones"
+echo ${MSG:4:7}
+#returns Rolling
+Use
+
+=============================
 
 
