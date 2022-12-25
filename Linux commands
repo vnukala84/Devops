@@ -70,3 +70,5 @@ $ sudo find / -name hostname
 /usr/libexec/hostname
 
 ===============================
+alias cls='clear'
+
