@@ -72,3 +72,30 @@ $ sudo find / -name hostname
 ===============================
 alias cls='clear'
 
+========
+The awk command invokes the subcommand
+named sub to find any occurrence of "Bobby" and change the string to "Teddy". Then, the subcommand print outputs
+the result of the substitution
+
+$ echo "Bobby is cool" | awk '{sub("Bobby","Teddy"); print}'
+Teddy is cool
+
+enkat   tty2         2022-12-25 06:40 (tty2)
+venkat@devops:~/Desktop$ 
+venkat@devops:~/Desktop$ 
+venkat@devops:~/Desktop$ 
+venkat@devops:~/Desktop$ who | awk '{print $1}'
+venkat
+venkat@devops:~/Desktop$ who | awk '{print $2}'
+tty2
+
+=================================
+
+traceroute -m 5 developers.redhat.com
+
+nslookup developers.redhat.com
+=============================
+users
+
+Displays the names of users logged in to the computer.
+
