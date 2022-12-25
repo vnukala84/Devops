@@ -22,3 +22,51 @@ Teddy is cool
 venkat@venkat-virtual-machine:~$ 
 
 ===================================
+more -4 /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+--More--(5%)
+----------------------------------
+top
+
+Displays information about the running Linux processes.
+
+=======================================================
+
+df
+
+df displaying all mounted file systems. Disk space is shown
+in 1K blocks (note that $$ is the command-line prompt symbol):
+df
+$ df
+Filesystem 1K-blocks Used Available Use% Mounted on
+devtmpfs 3949180 0 3949180 0% /dev
+tmpfs 3978636 0 3978636 0% /dev/shm
+tmpfs 3978636 9464 3969172 1% /run
+tmpfs 3978636 0 3978636 0% /sys/fs/cgroup
+/dev/mapper/rhel-root 50065528 5588744 44476784 12% /
+/dev/mapper/rhel-home 24445276 228104 24217172 1% /home
+/dev/sda1 1038336 262796 775540 26% /boot
+tmpfs 795724 64 795660 1% /run/user/1000
+
+=======================================
+
+find
+
+sudo find <starting/directory> -name <file/directory name>
+
+$ sudo find / -name hostname
+/proc/sys/kernel/hostname
+/etc/hostname
+/var/lib/selinux/targeted/active/modules/100/hostname
+/usr/bin/hostname
+/usr/lib64/gettext/hostname
+/usr/share/licenses/hostname
+/usr/share/doc/hostname
+/usr/share/bash-completion/completions/hostname
+/usr/share/selinux/targeted/default/active/modules/100/hostname
+/usr/libexec/hostname
+
+===============================
