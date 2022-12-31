@@ -11,3 +11,10 @@ To restart Jenkins, use the following command:
         ============================================
 To check the status of the Jenkins service, use the following systemctl command:
         sudo systemctl status jenkins 
+============================================================================================
+
+Integrate Github with Jenkins
+
+1) Install Git on Jenkins instanace
+2) Install Github plugn on Jenkins GUI
+3) Configure Git jenkins GUI
