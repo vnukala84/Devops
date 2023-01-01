@@ -18,3 +18,7 @@ Integrate Github with Jenkins
 1) Install Git on Jenkins instanace
 2) Install Github plugn on Jenkins GUI
 3) Configure Git jenkins GUI
+==================================
+
+Apache maven installation on jenkins server
+
