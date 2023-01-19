@@ -1,0 +1,40 @@
+To create a Task, open your favorite editor and create a file named hello-world.yaml with the following content:
+
+
+apiVersion: tekton.dev/v1beta1
+kind: Task
+metadata:
+  name: hello
+spec:
+  steps:
+    - name: echo
+      image: alpine
+      script: |
+        #!/bin/sh
+        echo "Hello World"
+        
+        
+        ==============================
+ kubectl apply --filename hello-world.yaml
+
+A TaskRun object instantiates and executes this Task. Create another file named hello-world-run.yaml with the following content:
+
+apiVersion: tekton.dev/v1beta1
+kind: TaskRun
+metadata:
+  name: hello-task-run
+spec:
+  taskRef:
+    name: hello
+    
+kubectl apply --filename hello-world-run.yaml
+
+---------------------------------------------------------------------------------------
+kubectl get taskrun hello-task-run
+
+venkat@devops:~/Tekton$ kubectl get taskrun
+NAME             SUCCEEDED   REASON      STARTTIME   COMPLETIONTIME
+hello-task-run   True        Succeeded   51s         23s
+
+---------------------------
+
