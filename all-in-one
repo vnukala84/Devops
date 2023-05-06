@@ -45,5 +45,6 @@ Removing intermediate container 087d8a6d93d1
 Successfully built f08978b5926a
 Successfully tagged vnuk-sample:latest
 [root@localhost kubernetes]#
-
+==================================
+docker run --name vnuk-container -p 8080:8080 -d vnuk-sample
 
