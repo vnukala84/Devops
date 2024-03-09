@@ -1,1 +1,5 @@
+[rockylinux@rocky9 ~]$ sudo dnf install epel-release
+
+[rockylinux@rocky9 ~]$ sudo dnf install -y ansible
+
 
