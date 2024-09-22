@@ -55,3 +55,47 @@ class SampleCon:
 >>> test1  = SampleCon("red", "sweet")
 >>> print(test1.color)
 red
+=========================================================
+
+Varaible assignment :: 
+
+>>> big = 'large'
+>>> big
+'large'
+>>> big = 1000*1000
+>>> big
+1000000
+>>> big = {}
+>>> 
+------------------
+Basic Math ::
+
+>>> 5/2
+2.5
+>>> 5//2
+2
+>>> 3**2
+9
+>>> 2*7
+14
+>>> 5%2
+1
+>>> # this is comment
+>>> 1 + 1  # this is commenet
+2
+-------------------------------------------
+>>> range(10)
+range(0, 10)
+>>> list(range(10))
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> list(range(5,10,3))
+[5, 8]
+>>>
+----------------------
+
+Execution Control ::
+
+
+
+
+
