@@ -95,6 +95,36 @@ range(0, 10)
 
 Execution Control ::
 
+===================================
+
+>>> 2 in [1,2,3]
+True
+>>> 'a' not in 'cat'
+False
+>>> 10 in range(120
+...
+KeyboardInterrupt
+>>> 10 in range(12)
+True
+>>> 10 not in range(2,4)
+True
+>>>
+-----------------------------------
+>>> my_sequence = 'Bill Cheatham'
+>>> my_sequence[0]
+'B'
+>>> my_sequence[2]
+'l'
+>>> my_sequence[0,3]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: string indices must be integers, not 'tuple'
+>>> my_sequence[11]
+'a'
+>>>
+
+---------------------------------
+
 
 
 
